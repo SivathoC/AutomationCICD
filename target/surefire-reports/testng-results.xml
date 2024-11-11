@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-11T13:24:25 SAST" name="Suite" finished-at="2024-11-11T13:25:30 SAST" duration-ms="65001">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidations.LoginErrorValidation()[pri:0, instance:sivathoconjwaacademy.tests.ErrorValidations@1e16c0aa]" name="LoginErrorValidation" class="sivathoconjwaacademy.tests.ErrorValidations"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:sivathoconjwaacademy.tests.SubmitOrderTest@43f02ef2]" name="submitOrder" class="sivathoconjwaacademy.tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-11-11T13:24:25 SAST" name="Error Validations Test" finished-at="2024-11-11T13:24:56 SAST" duration-ms="31185">
+      <class name="sivathoconjwaacademy.tests.ErrorValidations">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:sivathoconjwaacademy.tests.ErrorValidations@1e16c0aa]" started-at="2024-11-11T13:24:25 SAST" name="launchApplication" finished-at="2024-11-11T13:24:38 SAST" duration-ms="13189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:sivathoconjwaacademy.tests.ErrorValidations@1e16c0aa]" started-at="2024-11-11T13:24:38 SAST" name="LoginErrorValidation" finished-at="2024-11-11T13:24:39 SAST" duration-ms="959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sivathoconjwaacademy.tests.ErrorValidations@1e16c0aa]" started-at="2024-11-11T13:24:39 SAST" name="tearDown" finished-at="2024-11-11T13:24:39 SAST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:sivathoconjwaacademy.tests.ErrorValidations@1e16c0aa]" started-at="2024-11-11T13:24:39 SAST" name="launchApplication" finished-at="2024-11-11T13:24:42 SAST" duration-ms="3234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidations()[pri:0, instance:sivathoconjwaacademy.tests.ErrorValidations@1e16c0aa]" started-at="2024-11-11T13:24:42 SAST" name="ProductErrorValidations" finished-at="2024-11-11T13:24:56 SAST" duration-ms="13516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidations -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sivathoconjwaacademy.tests.ErrorValidations@1e16c0aa]" started-at="2024-11-11T13:24:56 SAST" name="tearDown" finished-at="2024-11-11T13:24:56 SAST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- sivathoconjwaacademy.tests.ErrorValidations -->
+    </test> <!-- Error Validations Test -->
+    <test started-at="2024-11-11T13:24:25 SAST" name="Submit Order Test" finished-at="2024-11-11T13:25:30 SAST" duration-ms="65001">
+      <class name="sivathoconjwaacademy.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:sivathoconjwaacademy.tests.SubmitOrderTest@43f02ef2]" started-at="2024-11-11T13:24:25 SAST" name="launchApplication" finished-at="2024-11-11T13:24:41 SAST" duration-ms="15721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:sivathoconjwaacademy.tests.SubmitOrderTest@43f02ef2]" started-at="2024-11-11T13:24:41 SAST" name="submitOrder" data-provider="getData" finished-at="2024-11-11T13:24:59 SAST" duration-ms="18098" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{userPassword=Password1234$, userEmail=sivathoc@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sivathoconjwaacademy.tests.SubmitOrderTest@43f02ef2]" started-at="2024-11-11T13:24:59 SAST" name="tearDown" finished-at="2024-11-11T13:24:59 SAST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:sivathoconjwaacademy.tests.SubmitOrderTest@43f02ef2]" started-at="2024-11-11T13:24:59 SAST" name="launchApplication" finished-at="2024-11-11T13:25:06 SAST" duration-ms="6840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:sivathoconjwaacademy.tests.SubmitOrderTest@43f02ef2]" started-at="2024-11-11T13:25:06 SAST" name="submitOrder" data-provider="getData" finished-at="2024-11-11T13:25:22 SAST" duration-ms="15982" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{userPassword=Password1234$, userEmail=zintlec@gmail.com, productName=IPHONE 13 PRO}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sivathoconjwaacademy.tests.SubmitOrderTest@43f02ef2]" started-at="2024-11-11T13:25:22 SAST" name="tearDown" finished-at="2024-11-11T13:25:22 SAST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:sivathoconjwaacademy.tests.SubmitOrderTest@43f02ef2]" started-at="2024-11-11T13:25:22 SAST" name="launchApplication" finished-at="2024-11-11T13:25:28 SAST" duration-ms="6314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHostoryTest()[pri:0, instance:sivathoconjwaacademy.tests.SubmitOrderTest@43f02ef2]" started-at="2024-11-11T13:25:28 SAST" name="OrderHostoryTest" finished-at="2024-11-11T13:25:29 SAST" depends-on-methods="sivathoconjwaacademy.tests.SubmitOrderTest.submitOrder" duration-ms="1151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHostoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sivathoconjwaacademy.tests.SubmitOrderTest@43f02ef2]" started-at="2024-11-11T13:25:29 SAST" name="tearDown" finished-at="2024-11-11T13:25:30 SAST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- sivathoconjwaacademy.tests.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
