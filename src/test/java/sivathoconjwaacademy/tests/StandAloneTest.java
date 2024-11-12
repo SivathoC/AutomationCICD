@@ -18,6 +18,7 @@ public class StandAloneTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		// New comments have been added
 		String userEmail = "sivathoc@gmail.com";
 		String userPassword = "Password1234$";
 		String productName = "ZARA COAT 3";
